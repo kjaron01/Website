@@ -1,0 +1,60 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#about, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*****HEADER*****/
+
+header {
+    height: 3900px;
+    background: gray;
+}
+#logo-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header h1 {
+    font-family: 'lora', serif;
+    font-size: 60px;
+    line-height: 50px;
+    color: #030010;
+}
+nav {
+    float: right;
+    padding: 40px 10px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #030000;
+    padding-left: 80px;
+}
+.family-img {
+    clear: both;
+    text-align: center;
+}
